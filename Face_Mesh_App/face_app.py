@@ -66,10 +66,11 @@ if app_mode == "About App":
             margin-left:-350px
         }
         </style>
-        """,
-        unsafe_allow_html=True
+        """
+        ,
+        unsafe_allow_html= True
     )
-    st.video('https://youtu.be/FMANNXgB_5c')
+    st.video('demo.mp4')
 
     st.markdown(
         '''
